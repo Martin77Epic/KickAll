@@ -1,0 +1,16 @@
+name: KickAll
+api: [1.0.0]
+version: 1.0.0
+main: KickAll\KickAll
+load: POSTWORLD
+author: Martin77Epic
+commands:
+  kickall:
+    description: "Kick all Players"
+    usage: "/kickall"
+    permission: m77e.kickall
+permissions:
+  m77e.kickall:
+    description: "Allows to run /kickall commands"
+    default: op
+
